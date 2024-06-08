@@ -1,5 +1,8 @@
 # remote-control-4
 # used Node.js server
+# cd ~/Downloads/remote-control-4-main
+# npm init -y
+# npm install express
 # pip install flask
 # sudo apt update
 # sudo apt upgrade
