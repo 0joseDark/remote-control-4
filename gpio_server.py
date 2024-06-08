@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# pip install flask
-
 from flask import Flask, request
 from gpiozero import LED
 import RPi.GPIO as GPIO
