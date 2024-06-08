@@ -11,6 +11,7 @@ app.post('/control', async (req, res) => {
     const response = await axios.post('http://localhost:5000/gpio', req.body);
     res.send(response.data);
   } catch (error) {
+    console.error('Erro ao enviar comando:', error);
     res.status(500).send('Erro ao controlar GPIO');
   }
 });
